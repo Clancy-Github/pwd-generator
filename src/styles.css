@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  color: whitesmoke;
+  width: "100vw";
+  height: "100vh";
+}
+
+#root {
+  background-color: black;
+  height: 100%;
+  margin: 0;
+}
+
+#background {
+  background-image: url("./img/background.jpg");
+}
+
+#selections {
+  display: flex;
+  flex-direction: column;
+}
+
+#pwdDisplay {
+  background-color: rgba(238, 229, 229, 0.075);
+}
