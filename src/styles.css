@@ -1,25 +1,56 @@
 .App {
   text-align: center;
   color: whitesmoke;
-  width: "100vw";
-  height: "100vh";
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100vh;
 }
 
 #root {
-  background-color: black;
   height: 100%;
   margin: 0;
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
 }
 
-#background {
-  background-image: url("./img/background.jpg");
+.selectionsCard {
+  display: flex;
+  justify-content: center;
 }
 
-#selections {
+.selections {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 500px;
+  height: 250px;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  font-weight: 500;
+}
+
+.selections button {
+  background-color: rgb(0, 0, 0, 0.3);
+  color: white;
+  font-family: "Chakra Petch", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 #pwdDisplay {
-  background-color: rgba(238, 229, 229, 0.075);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.complexityCard {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 500px;
+  margin-top: 50px;
+  display: inline-block;
 }
